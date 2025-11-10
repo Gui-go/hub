@@ -1,17 +1,10 @@
 name: Hub CI/CD
 
 on:
-  pull_request:
-    branches:
-      - main
-    types:
-      - opened
-      - synchronize
-      - reopened
-
   push:
     branches:
       - main
+      - dev
 
 env:
   TF_VERSION: 1.1.5
