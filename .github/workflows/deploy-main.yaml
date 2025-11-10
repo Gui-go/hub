@@ -13,13 +13,8 @@ env:
   TF_IN_AUTOMATION: "true"
 
 jobs:
-  terragrunt_plan:
-    if: github.event_name == 'pull_request'
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: 'read'
-      id-token: 'write'
-      pull-requests: 'write'
 
     steps:
       - name: Checkout
