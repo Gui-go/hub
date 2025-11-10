@@ -22,7 +22,7 @@ inputs = {
   repo_id            = "artifact-repo"
   repo_desc          = "Docker repository for storing container images"
   keep_count         = 1
-  portfolio_app_path = "/home/guigo/Documents/01-personalHub/portfolio_app"
+  portfolio_app_path = "/home/guigo/Documents/01-hub/portfolio_app"
 }
 
 

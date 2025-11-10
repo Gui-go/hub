@@ -48,15 +48,23 @@ my-app/
 
 
 docker buildx build --platform linux/amd64 \
-  -t us-central1-docker.pkg.dev/personalhub22/artifact-repo/portfolio-app:latest \
+  -t us-central1-docker.pkg.dev/hub26/artifact-repo/portfolio-app:latest \
   -f portfolio-app.dockerfile \
   --push .
 
 gcloud run deploy portfolio-run \
-  --image=us-central1-docker.pkg.dev/personalhub22/artifact-repo/portfolio-app:latest \
+  --image=us-central1-docker.pkg.dev/hub26/artifact-repo/portfolio-app:latest \
   --platform=managed \
   --region=us-central1 \
   --allow-unauthenticated
+
+-----
+
+gcloud auth configure-docker us-central1-docker.pkg.dev -q
+docker buildx build --platform linux/amd64 \
+    -t us-central1-docker.pkg.dev/hub026/artifact-repo/portfolio-app:latest \
+    -f portfolio-app.dockerfile \
+    --push .
 
 
 npm run dev

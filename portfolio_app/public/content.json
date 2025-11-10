@@ -3,7 +3,7 @@
         "id": "home",
         "label": "Home",
         "path": "/",
-        "title": "Welcome to Guilherme's Personal Hub",
+        "title": "Welcome to Guilherme's Hub",
         "version": "(Version 0.7.0.4)",
         "description": "I am a developer with a passion for data engineering, geospatial analysis, and AI projects. Below you can find my highlights.",
         "image": "images/cloud8.jpg",
@@ -21,8 +21,8 @@
                 "path": "/geolayers/cities-ivevisited"
             },
             {
-                "label": "PersonalHub+: An AI to support cloud development",
-                "path": "/tools/personalhub-improver"
+                "label": "Hub+: An AI to support cloud development",
+                "path": "/tools/hub-improver"
             }
         ]
     },
@@ -78,13 +78,13 @@
         "image": "/images/cloud22.jpg",
         "tol": [
             {
-                "id": "personalhub-improver",
-                "title": "PersonalHub Improver",
+                "id": "hub-improver",
+                "title": "Hub Improver",
                 "short_title": "",
                 "full_title": "",
-                "path": "/tools/personalhub-improver",
+                "path": "/tools/hub-improver",
                 "date": "2024-12-??",
-                "excerpt": "A Gemini AI agent to help me improve my personal hub project cloud infrastructure.",
+                "excerpt": "A Gemini AI agent to help me improve my hub project cloud infrastructure.",
                 "image": "/images/ai8.jpg",
                 "content": "abcabcabc"
             },
@@ -251,13 +251,13 @@
         "image": "/images/cloud13.jpg",
         "projs": [
             {
-                "id": "personalhub",
-                "title": "Personal Hub",
+                "id": "hub",
+                "title": "Hub",
                 "short_title": "",
                 "full_title": "",
-                "path": "https://github.com/Gui-go/PersonalHub",
+                "path": "https://github.com/Gui-go/hub",
                 "date": "2024-12-??",
-                "excerpt": "A project to showcase my work, research, and projects in a personal website. It can be accessed at https://www.guigo.dev.br.",
+                "excerpt": "A project to showcase my work, research, and projects in a hub website. It can be accessed at https://www.guigo.dev.br.",
                 "image": "/images/personalhub13.jpg",
                 "content": "abcabcabc"
             },

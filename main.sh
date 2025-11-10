@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # chmod +x main.sh
-# grep -rl "personalhub19" . | xargs sed -i 's/personalhub20/personalhub22/g'
-# grep -rl "personalhub19" . | xargs sed -i 's/personalhub19/personalhub22/g'
-# grep -rl "personalhub21" . | xargs sed -i 's/personalhub21/personalhub22/g'
+# grep -rl "hub21" . | xargs sed -i 's/hub21/hub22/g'
 
 # gcloud resetting:
 gcloud config unset compute/region
@@ -24,13 +22,13 @@ set -o allexport; source .env; set +o allexport
 echo $PROJ_ID
 
 # Other related projects:
-# gcloud projects create "gcs-personalhub1" --name="gcs-personalhub" --labels=owner=guilhermeviegas --enable-cloud-apis --quiet
-# gcloud beta billing projects link "gcs-personalhub1" --billing-account=$BILLING_ACC
-# gcloud config set project "gcs-personalhub1"
-# gcloud config set billing/quota_project "gcs-personalhub1"
+# gcloud projects create "gcs-hub1" --name="gcs-hub" --labels=owner=guilhermeviegas --enable-cloud-apis --quiet
+# gcloud beta billing projects link "gcs-hub1" --billing-account=$BILLING_ACC
+# gcloud config set project "gcs-hub1"
+# gcloud config set billing/quota_project "gcs-hub1"
 
-# gcloud auth application-default set-quota-project personalhub13
-# gcloud config set billing/quota_project personalhub13
+# gcloud auth application-default set-quota-project hub13
+# gcloud config set billing/quota_project hub13
 
 
 
@@ -87,11 +85,11 @@ gcloud projects add-iam-policy-binding $PROJ_ID \
   --member="serviceAccount:$GH_ACTIONS_SA@$PROJ_ID.iam.gserviceaccount.com" \
   --role="roles/owner"
 
-# gcloud storage buckets add-iam-policy-binding gs://personalhub22gcs4state \
-#   --member="serviceAccount:ghactionsSA@personalhub22.iam.gserviceaccount.com" \
+# gcloud storage buckets add-iam-policy-binding gs://hub22gcs4state \
+#   --member="serviceAccount:ghactionsSA@hub22.iam.gserviceaccount.com" \
 #   --role="roles/storage.objectAdmin"
-# gcloud storage buckets add-iam-policy-binding gs://personalhub22gcs4state \
-#   --member="serviceAccount:ghactionsSA@personalhub22.iam.gserviceaccount.com" \
+# gcloud storage buckets add-iam-policy-binding gs://hub22gcs4state \
+#   --member="serviceAccount:ghactionsSA@hub22.iam.gserviceaccount.com" \
 #   --role="roles/storage.legacyBucketReader"
 
 
@@ -138,8 +136,8 @@ gcloud iam service-accounts keys create ${GH_ACTIONS_SA}-key.json \
 
 ##
 
-# Go execute terragrunt at /home/guigo/Documents/01-personalHub/terragrunt/environments/dev
-# cd /home/guigo/Documents/01-personalHub/terragrunt/environments/dev
+# Go execute terragrunt at /home/guigo/Documents/01-Hub/terragrunt/environments/dev
+# cd /home/guigo/Documents/01-Hub/terragrunt/environments/dev
 
 # terragrunt run-all init
 # terragrunt validate
@@ -150,7 +148,7 @@ gcloud iam service-accounts keys create ${GH_ACTIONS_SA}-key.json \
 # gcloud auth configure-docker europe-north2-docker.pkg.dev --quiet
 
 # docker buildx build --platform linux/amd64 \
-#   -t europe-north2-docker.pkg.dev/personalhub11/personalhub-artifact-repo/portfolio-app:latest  \
+#   -t europe-north2-docker.pkg.dev/hub11/hub-artifact-repo/portfolio-app:latest  \
 #   -f react.dockerfile \
 #   --push .
 

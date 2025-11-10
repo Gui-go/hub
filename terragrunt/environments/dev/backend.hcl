@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "hub26gcs4state-1762736768"
+    bucket = "hub26gcs4state"
     prefix = "terragrunt/environments/dev"
   }
 }
