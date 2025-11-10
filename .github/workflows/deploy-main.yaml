@@ -45,7 +45,7 @@ jobs:
 
       - name: Terragrunt Init
         id: init
-        run: terragrunt run-all init --terragrunt-non-interactive
+        run: terragrunt run-all init --terragrunt-non-interactive -reconfigure
         working-directory: ${{ env.TG_DIR }}
 
       - name: Terragrunt Plan
