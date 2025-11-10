@@ -3,8 +3,6 @@ locals {
   env_vars      = read_terragrunt_config(local.env_vars_path)
 }
 
-
-
 generate "provider" {
   path      = "provider.tf"
   if_exists = "overwrite"
