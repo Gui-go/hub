@@ -1,0 +1,114 @@
+
+
+
+
+
+
+add Selenium to about skills
+
+flappy bird 
+
+Change jpg to png images
+
+
+remove terms like "get" or "post" from the APIs. It should be understood.
+
+
+
+
+
+
+Ideas: 
+
+1) One-commit-per-day
+2) lenguages reminder
+
+
+
+3) barcelona writings
+
+
+5) pomodoro
+
+
+flappy birdmenu or restart
+
+
+
+music player
+
+6) Joplin note taker:
+https://joplinapp.org/
+
+7) file browser
+As a replacement for Google Drive.
+
+8) NextCloud docker image
+
+9) "Kodi TV" on a strawberry pi
+
+_dj_dave__ instagram program to rave, code to music
+
+
+11) A store online that presents the prices of its products according to how much money people make, in time of work.
+
+Container with warnings:
+
+ 2 warnings found (use docker --debug to expand):
+ - UndefinedVar: Usage of undefined variable '$NEXT_PUBLIC_FIREBASE_PRIVATE_KEY' (line 26)
+ - UndefinedVar: Usage of undefined variable '$NEXT_PUBLIC_FIREBASE_CLIENT_EMAIL' (line 27)
+
+
+13) Trolley game: The user needs to make difficult decisions to save lives
+
+14) Snake game
+
+15) Rock, paper, scizors
+
+16) DockPeek - To have a hub of all containers in system
+
+17) Capa/dataset "Landing zone (lz)", "bronze", "silver", "gold", "mart"?????
+
+18)
+Germany, Prussia, and both territories.
+Austro-Hungarian Empire
+german territorial losses in ww1 and ww2
+
+add lives to flappy bird
+
+19) Al-Andalus, avanço Mouro na Iberia e França
+
+20) the 5 guianas
+
+21) Add WIF in project, federacion de identidades
+
+22) Create a GH Webhook to visualize changes in PortfolioHub git changes 
+
+23) Calculadora de juros compostos
+
+24) Article about removing the option to deploy GCP resources on the UI/portal and only using Terraform
+
+25) Tools -> Features ?
+
+26) Library tag/tool for links of my favourite articles and books;
+download blocked by password, so not to be accused of piracy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

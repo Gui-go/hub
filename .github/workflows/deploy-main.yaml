@@ -1,0 +1,99 @@
+name: Hub CI/CD
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+  push:
+    branches:
+      - main
+
+env:
+  TF_VERSION: 1.1.5
+  TG_VERSION: 0.38.7
+  TG_DIR: ./terragrunt/environments/dev
+  TF_IN_AUTOMATION: "true"
+
+jobs:
+  terragrunt_plan:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+      pull-requests: 'write'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up gcloud
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+
+      - name: Setup Terragrunt
+        uses: autero1/action-terragrunt@v1.1.0
+        with:
+          terragrunt_version: ${{ env.TG_VERSION }}
+
+      - name: Terragrunt Format
+        id: fmt
+        run: terragrunt hclfmt --terragrunt-check --terragrunt-non-interactive
+        working-directory: ${{ env.TG_DIR }}
+
+      - name: Terragrunt Init
+        id: init
+        run: terragrunt run-all init --terragrunt-non-interactive
+        working-directory: ${{ env.TG_DIR }}
+
+    #   - name: Terragrunt Import
+    #     run: |
+    #       cd terragrunt/environments/dev/billing
+    #       terragrunt import google_bigquery_dataset.billing_export_dataset projects/personalhub22/datasets/billing_export || echo "already imported"
+    #       cd ../data-platform
+    #       for dataset in bronze silver gold mart; do
+    #         terragrunt import google_bigquery_dataset.dataset[\"$dataset\"] projects/personalhub22/datasets/$dataset || echo "already imported"
+    #       done
+    #       cd ../network
+    #       terragrunt import google_compute_network.vpc_net projects/personalhub22/global/networks/vpc-net || echo "already imported"
+    #       terragrunt import google_compute_subnetwork.vpc_subnet projects/personalhub22/regions/us-central1/subnetworks/vpc-subnet || echo "already imported"
+    #       terragrunt import google_compute_global_address.lb_ip projects/personalhub22/global/addresses/lb-ip || echo "already imported"
+    #       terragrunt import google_dns_managed_zone.dns_zone projects/personalhub22/managedZones/dns-zone || echo "already imported"
+    #       cd ../storage
+    #       terragrunt import google_storage_bucket.buckets[\"raw\"] personalhub22-dev-raw || echo "already imported"
+    #       terragrunt import google_storage_bucket.buckets[\"mart\"] personalhub22-dev-mart || echo "already imported"
+    #       terragrunt import google_artifact_registry_repository.artifact_repository projects/personalhub22/locations/us-central1/repositories/artifact-repo || echo "already imported"
+    #       cd ../iam
+    #       for sa in terraform-sa portfolio-sa fastapi-sa dataform-sa gh-actions-sa grafana-sa firestore-sa; do
+    #         terragrunt import google_service_account.sa[\"$sa\"] projects/personalhub22/serviceAccounts/$sa@personalhub22.iam.gserviceaccount.com || echo "already imported"
+    #       done
+
+      - name: Terragrunt Plan
+        id: plan
+        run: terragrunt run-all plan --terragrunt-non-interactive -out=plan.out
+        working-directory: ${{ env.TG_DIR }}
+        continue-on-error: true
+
+      - name: Terragrunt Show
+        id: show
+        run: terragrunt run-all show plan.out
+        working-directory: ${{ env.TG_DIR }}
+
+      - name: Terragrunt Apply
+        if: github.event.pull_request.merged == true
+        run: terragrunt run-all apply --terragrunt-non-interactive -auto-approve
+        working-directory: ${{ env.TG_DIR }}

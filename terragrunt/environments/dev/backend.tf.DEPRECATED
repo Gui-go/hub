@@ -1,0 +1,6 @@
+terraform {
+  backend "gcs" {
+    bucket = "personalhub22gcs4state"
+    prefix = "terragrunt/."
+  }
+}
