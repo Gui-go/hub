@@ -1,0 +1,1372 @@
+{
+    "home": {
+        "id": "home",
+        "label": "Home",
+        "path": "/",
+        "title": "Welcome to Guilherme's Hub",
+        "version": "(Version 0.7.0.4)",
+        "description": "I am a developer with a passion for data engineering, geospatial analysis, and AI projects. Below you can find my highlights.",
+        "image": "images/cloud8.jpg",
+        "cta": [
+            {
+                "label": "Virtual Guigo: A customed LLM to present myself",
+                "path": "/agents/virtual-guigo"
+            },
+            {
+                "label": "Masters Thesis: Migration Dynamics in Brazil",
+                "path": "https://run.unl.pt/handle/10362/180815"
+            },
+            {
+                "label": "GeoLayer: Main cities I have visited",
+                "path": "/geolayers/cities-ivevisited"
+            },
+            {
+                "label": "Hub+: An AI to support cloud development",
+                "path": "/tools/hub-improver"
+            }
+        ]
+    },
+    "stories": {
+        "id": "stories",
+        "label": "Stories",
+        "path": "/stories",
+        "title": "Stories",
+        "description": "Stories that I carefully developed and share for a better world.",
+        "image": "/images/cloud29.jpg",
+        "stor": [
+            {
+                "id": "migration-dynamics",
+                "title": "Migration Dynamics",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://www.guigo.dev.br/api/fetchPolygons",
+                "date": "2025-01-??",
+                "excerpt": "(WORK IN PROGRESS) An interactive story about migration dynamics in Brazil.",
+                "image": "/images/migSearchEngine.png",
+                "content": "This tutorial covers abcabc abcabc "
+            },
+            {
+                "id": "mex-us-influx",
+                "title": "Mexico-US Influx",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://www.google.com/search?q=Mexico%E2%80%93United+States+border+crisis",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) An interactive story about the influx of migrants from Mexico to the United States through Guilherme's perspective.",
+                "image": "/images/migrationBoarder.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "knowledge-spillovers",
+                "title": "knowledge-spillovers",
+                "short_title": "",
+                "full_title": "",
+                "path": "/stories/knowledge-spillovers",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/error_img.png",
+                "content": "abcabcabc"
+            }
+        ]
+    },
+    "tools": {
+        "id": "tools",
+        "label": "Tools",
+        "path": "/tools",
+        "title": "Tools",
+        "description": "Tools that I personally created and use to be more productive.",
+        "image": "/images/cloud22.jpg",
+        "tol": [
+            {
+                "id": "hub-improver",
+                "title": "Hub Improver",
+                "short_title": "",
+                "full_title": "",
+                "path": "/tools/hub-improver",
+                "date": "2024-12-??",
+                "excerpt": "A Gemini AI agent to help me improve my hub project cloud infrastructure.",
+                "image": "/images/ai8.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "counter-plus-one",
+                "title": "Counter Plus One",
+                "short_title": "",
+                "full_title": "",
+                "path": "/tools/counter-plus-one",
+                "date": "2024-12-??",
+                "excerpt": "A simple, yet well developed, button to add one into a counter.",
+                "image": "/images/button12.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "currency-chart",
+                "title": "Currency Chart",
+                "short_title": "",
+                "full_title": "",
+                "path": "/tools/currency-chart",
+                "date": "2024-12-??",
+                "excerpt": "Explore the variance of the exchange rate between various currencies over time.",
+                "image": "/images/currency4.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "grafana",
+                "title": "Grafana",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://grafana.guigo.dev.br/",
+                "date": "2024-12-??",
+                "excerpt": "A Grafana instance to track my metrics and logs in my computing ecosystem.",
+                "image": "/images/grafana1.png",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "vault-warden",
+                "title": "Vault Warden",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://vault.vaultwarden.net/#/login",
+                "date": "2025-01-??",
+                "excerpt": "My own instance of VaultWarden to store my passwords and secrets in a secure way.",
+                "image": "/images/secure1.jpg",
+                "content": "covers abcabc abcabc "
+            },
+            {
+                "id": "private-rstudio",
+                "title": "Private R Studio",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://rstudio.guigo.dev.br/",
+                "date": "2024-12-??",
+                "excerpt": "Here is my own private instance of R Studio in the Cloud.",
+                "image": "/images/rstudio1.png",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "postgres",
+                "title": "PostgreSQL",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://postgres.guigo.dev.br/",
+                "date": "2024-12-??",
+                "excerpt": "An instance of GCP Cloud SQL with PostgreSQL to store my data.",
+                "image": "/images/postgres3.png",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "firestore",
+                "title": "Firestore",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://firestore.guigo.dev.br/",
+                "date": "2024-12-??",
+                "excerpt": "An instance of GCP Firestore to store my data in a NoSQL schema.",
+                "image": "/images/firestore6.png",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "pix-explorer",
+                "title": "Pix Explorer",
+                "short_title": "",
+                "full_title": "",
+                "path": "/tools/pix-explorer",
+                "date": "2025-01-??",
+                "excerpt": "An interactive explorer tool to analyse the Brazilian instant payment method known as PIX.",
+                "image": "/images/pix1.jpg",
+                "content": "This tutorial covers abcabc abcabc "
+            },
+            {
+                "id": "flappy-bird",
+                "title": "Flappy Bird",
+                "short_title": "",
+                "full_title": "",
+                "path": "/tools/flappy-bird",
+                "date": "2024-12-??",
+                "excerpt": "My own version of the famous game Flappy Bird",
+                "image": "/images/flappyBird.png",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "egg-cooking-timer",
+                "title": "Egg Cooking Timer",
+                "short_title": "",
+                "full_title": "",
+                "path": "/tools/egg-cooking-timer",
+                "date": "2024-12-??",
+                "excerpt": "A custom timer to help me cook my eggs.",
+                "image": "/images/eggs4.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "stupid-button",
+                "title": "Stupid Button",
+                "short_title": "",
+                "full_title": "",
+                "path": "/tools/stupid-button",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) A stupid button that increses in price each time it is pressed.",
+                "image": "/images/stupid-button1.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "n8n",
+                "title": "n8n",
+                "short_title": "",
+                "full_title": "",
+                "path": "/tools/n8n",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) My own n8n instance to develop AI agents and tools on the Cloud.",
+                "image": "/images/n8n.png",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "expenses-tracker",
+                "title": "Expenses Tracker",
+                "short_title": "",
+                "full_title": "",
+                "path": "/tools/expenses-tracker",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) A tool to store and analyse receipt photos over time.",
+                "image": "/images/expensesTracker12.jpg"
+            },
+            {
+                "id": "google-analytics",
+                "title": "Google Analytics",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://analytics.google.com/",
+                "date": "2024-12-??",
+                "excerpt": "Google Analytics support for www.guigo.dev.br in order to understand its usage.",
+                "image": "/images/ga44.png"
+            }
+        ]
+    },
+    "projects": {
+        "id": "projects",
+        "label": "Projects",
+        "path": "/projects",
+        "title": "Projects",
+        "description": "Check out my portfolio of coding projects.",
+        "image": "/images/cloud13.jpg",
+        "projs": [
+            {
+                "id": "hub",
+                "title": "Hub",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://github.com/Gui-go/hub",
+                "date": "2024-12-??",
+                "excerpt": "A project to showcase my work, research, and projects in a hub website. It can be accessed at https://www.guigo.dev.br.",
+                "image": "/images/personalhub13.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "brvectors",
+                "title": "BRvectors",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://github.com/Gui-go/BRvectors",
+                "date": "2024-12-??",
+                "excerpt": "An ELT process and database enabling multi-scale spatial data retrieval, covering municipal, micro, meso, intermediate, and immediate geographic units.",
+                "image": "/images/BRvectors.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "gcpbillinganalytics",
+                "short_title": "",
+                "full_title": "",
+                "title": "GCP Billing Analytics",
+                "path": "https://github.com/Gui-go/gcp_billing_analytics",
+                "date": "2024-12-??",
+                "excerpt": "A smart way to track expenses and get Gemini-powered suggestions for optimizing GCP spending.",
+                "image": "/images/moneyPiggy3.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "how-much-mansion-worth",
+                "title": "How Much is this Mansion Worth",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://github.com/Gui-go/how_much_mansion_worth",
+                "date": "2025-01-??",
+                "excerpt": "A Machine Learning analysis to estimate how much mansions in Brasilia are worth, considering their location and attributes.",
+                "image": "/images/mansion2.jpg",
+                "content": "This tutorial covers abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc"
+            },
+            {
+                "id": "azureVM4nomads",
+                "title": "Azure VMs 4 Nomads",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://github.com/Gui-go/azVM4Nomads",
+                "date": "2024-12-??",
+                "excerpt": "Terraform automation script for deployment of Azure Virtual Machines at scale.",
+                "image": "/images/digitalNomad.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "motion-snitcher",
+                "short_title": "",
+                "full_title": "",
+                "title": "Motion Snitcher",
+                "path": "https://github.com/Gui-go/motionSnitcher",
+                "date": "2024-12-??",
+                "excerpt": "Using Bash and Python, a Raspberry Pi is programmed to trigger notifications when motion is detected.",
+                "image": "/images/raspberryPI.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "equanimy-systems",
+                "short_title": "",
+                "full_title": "",
+                "title": "Equanimy Systems",
+                "path": "https://www.google.com/search?q=socialism",
+                "date": "2024-12-??",
+                "excerpt": "An AI system to efficiently and equitably allocate resources in a group or comunity.",
+                "image": "/images/equalityDiversity.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "wow-delivery",
+                "short_title": "",
+                "full_title": "",
+                "title": "WoW Delivery",
+                "path": "/projects/wow-delivery",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) A delivery application for the workers of the world, made with with transparency, to deliver fairness to the workers of the world.",
+                "image": "/images/delivery2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "wow-feast",
+                "short_title": "",
+                "full_title": "",
+                "title": "WoW Feast",
+                "path": "/projects/wow-feast",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) An automated restaurant that frees and rewards the workers of the world.",
+                "image": "/images/wow-restaurant1.jpg",
+                "content": "abcabcabc"
+            }
+        ]
+    },
+    "publications": {
+        "id": "publications",
+        "label": "Publications",
+        "path": "/publications",
+        "title": "Publications",
+        "description": "A collection of my research papers and articles.",
+        "image": "/images/cloud9.jpg",
+        "publis": [
+            {
+                "id": "masters-thesis",
+                "title": "Masters Thesis: Migration Dynamics in Brazil",
+                "short_title": "Migration Dynamics in Brazil",
+                "full_title": "Migration Dynamics in Brazil: A Spatial Econometric Analysis",
+                "path": "https://run.unl.pt/handle/10362/180815",
+                "date": "2025-03-??",
+                "excerpt": "My Master's thesis on migration dynamics in Brazil and abroad, with an emphasis on the economic factors that drive people to relocate.",
+                "image": "/images/migSearchEngine.png",
+                "link": "https://drive.google.com/file/d/1lFR7ozEWcbUpphhUKJu1Zs2P0hnMrF1S/view?usp=sharing",
+                "content": "This tutorial covers abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc"
+            },
+            {
+                "id": "knowledge-spillovers-across-micro-regions-of-brazil",
+                "title": "Knowledge Spillovers Across Micro-Regions of Brazil",
+                "short_title": "",
+                "full_title": "Higher Education, Economic Complexity, and Knowledge Spillovers Across Micro-Regions of Brazil: A Geographically Weighted Regression Approach",
+                "path": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754",
+                "date": "2024-12-??",
+                "excerpt": "Meet Wilhelm, your AI Econometrics Professor! This digital book provides comprehensive econometrics lessons, enhanced by an interactive AI agent designed to guide you through complex concepts and help you learn.",
+                "image": "/images/peopleReading.jpg",
+                "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4549754",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "export-complexity-in-brazil",
+                "title": "Export complexity, industrial complexity and regional economic growth in Brazil",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313945",
+                "date": "2024-12-??",
+                "excerpt": "A comparison of various complexity (ECI) metrics with Brazilian exports and employment data.",
+                "image": "/images/boatContainer3.jpg",
+                "link1": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313945",
+                "link2": "https://econpapers.repec.org/paper/arxpapers/2312.07469.htm",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "bachelor-thesis",
+                "title": "Bachelor Thesis: Human Capital, Knowledge Spillovers, and Economic Complexity",
+                "short_title": "",
+                "full_title": "Human Capital, Knowledge Spillovers, and Economic Complexity: A Econometric Analysis through Global and Local methos in Brazilian Micorregions",
+                "path": "https://repositorio.ufsc.br/handle/123456789/241843",
+                "date": "2024-12-??",
+                "excerpt": "My Bachelor thesis on human capital, knowledge spillovers, and economic complexity in Brazilian microregions.",
+                "image": "/images/mindLetter.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "benchmarking-spatial-statistics",
+                "title": "Benchmarking Spatial Statistics",
+                "short_title": "",
+                "full_title": "Benchmarking Spatial Statistics: How Hardware Impacts Moran's I Computation Time",
+                "path": "https://www.guigo.dev.br",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) A study on how different hardware configurations affect the computation time of Moran's I spatial statistic.",
+                "image": "/images/spatialStatistic2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "osesc",
+                "title": "Socioeconomic Observatory of Santa Catarina",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://drive.google.com/file/d/1dat0aqaCNWdex1HIRWemxf7r9SH7U57D/view?usp=sharing",
+                "date": "2024-12-??",
+                "excerpt": "A dashboard to analyze and forecast time series of Brazilian socio-economic data, with focus on the state of Santa Catarina.",
+                "image": "/images/santaCatarina.jpg",
+                "link": "https://drive.google.com/file/d/1dat0aqaCNWdex1HIRWemxf7r9SH7U57D/view",
+                "content": "abcabcabc"
+            }
+        ]
+    },
+    "aiagents": {
+        "id": "agents",
+        "label": "Agents",
+        "path": "/agents",
+        "title": "AI Agents",
+        "description": "My work on AI-driven agents for automation and analysis.",
+        "image": "/images/cloud6.jpg",
+        "agents": [
+            {
+                "id": "virtual-guigo",
+                "short_title": "",
+                "full_title": "",
+                "title": "Virtual Guigo",
+                "path": "/agents/virtual-guigo",
+                "date": "2025-01-??",
+                "image": "/images/profileCartoon.jpg",
+                "excerpt": "A customed LLM Agent to present Guilherme and his research.",
+                "textH1": "Ask Virtual Guigo",
+                "textP1": "This AI assistant can answer questions about Guilherme's work, research, and projects.",
+                "textSearchbar": "Ask me about Guilherme's work, research, and projects...",
+                "textH2": "Try asking:",
+                "textQ1": "What is Guilherme's Masters Thesis about?",
+                "textQ2": "What geospatial projects has Guilherme worked on?",
+                "textQ3": "What AI agents has Guilherme created?",
+                "textQ4": "What programming languages does Guilherme know?",
+                "textBack": "Back to AI Agents"
+            },
+            {
+                "id": "migration-dynamics-discovery",
+                "short_title": "",
+                "full_title": "",
+                "title": "Migration Dynamics Discovery",
+                "path": "/agents/migration-dynamics-discovery",
+                "date": "2024-12-??",
+                "image": "/images/migSearchEngine.png",
+                "excerpt": "A GenAI Discovery engine to reveal the motives migrants move from place A to place B, according to Guilherme's thesis.",
+                "textH1": "Ask Migration Dynamics Discovery",
+                "textP1": "This AI assistant can answer questions about Guilherme's thesis and related publications.",
+                "textSearchbar": "Ask me about Guilherme's thesis and related publications...",
+                "textH2": "Try asking:",
+                "textQ1": "What is Guilherme's Masters Thesis about?",
+                "textQ2": "How can GWR estimate migration dynamics?",
+                "textQ3": "What is emigration and immigration?",
+                "textQ4": "What leads people to relocate?",
+                "textBack": "Back to AI Agents"
+            },
+            {
+                "id": "gwr-discovery",
+                "short_title": "",
+                "full_title": "",
+                "title": "GWR Discovery",
+                "path": "/agents/gwr-discovery",
+                "date": "2024-12-??",
+                "excerpt": "A GenAI Discovery engine to help researchers understand the many nuances around GWR-like models.",
+                "image": "/images/gwrSearchEngine.jpg",
+                "textH1": "Ask GWR Discovery",
+                "textP1": "This AI assistant can answer questions about GWR publications.",
+                "textSearchbar": "Ask me about GWR-like models...",
+                "textH2": "Try asking:",
+                "textQ1": "What is Geographically Weighted Regression (GWR)?",
+                "textQ2": "How to estimate spatial coeficientes with GWR?",
+                "textQ3": "What other GWR-like models exist?",
+                "textQ4": "What programming langugages support GWR implementation?",
+                "textBack": "Back to AI Agents"
+            },
+            {
+                "id": "tom-riddles-diary",
+                "short_title": "",
+                "full_title": "",
+                "title": "Tom Riddle's Diary",
+                "path": "https://github.com/Gui-go/tom_riddles_diary",
+                "date": "2024-12-??",
+                "excerpt": "A tutorial on visualizing geospatial data using the Leaflet JavaScript library.",
+                "image": "/images/diarytom.jpg",
+                "content": "This post dives into using Leaflet to create interactive maps for geospatial data visualization. Topics include setting up a Leaflet map, adding markers, layers, and popups, and integrating with geospatial datasets. The tutorial includes a step-by-step guide to building a city temperature heatmap."
+            },
+            {
+                "id": "professor-wilhelm",
+                "short_title": "",
+                "full_title": "",
+                "title": "Professor Wilhelm",
+                "path": "/agents/professor-wilhelm",
+                "date": "2025-01-??",
+                "image": "/images/wilhelmRobotProfessor.jpg",
+                "excerpt": "A customed LLM to support econometrics teachings.",
+                "textH1": "Ask Professor Wilhelm",
+                "textP1": "This AI assistant can answer questions about econometrics, data science, statistics, and more.",
+                "textSearchbar": "Ask me about methods and techniques...",
+                "textH2": "Try asking:",
+                "textQ1": "What is a Normal distribution?",
+                "textQ2": "What is Linear Regression?",
+                "textQ3": "What is Geographically Weighted Regression (GWR)?",
+                "textQ4": "What programming languages does Guilherme know?",
+                "textBack": "Back to AI Agents"
+            }
+        ]
+    },
+    "geolayers": {
+        "id": "geolayers",
+        "label": "GeoLayers",
+        "path": "/geolayers",
+        "title": "GeoLayers",
+        "description": "Interactive geospatial data visualization projects.",
+        "image": "/images/cloud16.jpg",
+        "layers": [
+            {
+                "id": "cities-ivevisited",
+                "title": "Cities I Have Visited",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/cities-ivevisited",
+                "date": "2025-01-??",
+                "excerpt": "A customed Geo visualization about the main cities I have visited before.",
+                "image": "/images/globebridge.jpg",
+                "content": "This tutorial covers abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc abcabc"
+            },
+            {
+                "id": "cities-ivelived",
+                "title": "Cities I have Lived In",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/cities-ivelived",
+                "date": "2024-12-??",
+                "excerpt": "A Geographic visualization about the cities I have lived before.",
+                "image": "/images/2worlds.jpg",
+                "content": "abcabcabc",
+                "name_floripa": "Florianópolis, Santa Catarina, Brazil",
+                "name_dublin": "Dublin, Ireland",
+                "name_lisbon": "Lisbon, Portugal",
+                "name_munster": "Münster, North Rhine-Westphalia, Germany",
+                "desc1_floripa": "Where I have lived most of my life, where I grow up and started working.",
+                "desc2_floripa": "Florianópolis is a city in southern Brazil known for its beautiful beaches, vibrant culture, and outdoor activities. It's a popular destination for both tourists and locals.",
+                "desc1_dublin": "Where I have matured, spent one year in the island studying business administration and English langugage to prepare myself for the challenges to come.",
+                "desc2_dublin": "Dublin is the capital of Ireland, famous for its rich history, literary heritage, and friendly atmosphere. It's a hub for technology and finance in Europe.",
+                "desc1_lisbon": "Where I continued working in IT and got back in touch with my roots, keep good memories from this place :)",
+                "desc2_lisbon": "Lisbon is the capital of Portugal, known for its stunning architecture, historic neighborhoods, and vibrant nightlife. It's a city that blends tradition with modernity.",
+                "desc1_munster": "Where I did my Masters and aim to persue a Senior carrer.",
+                "desc2_munster": "Münster is a city in Germany known for its historic old town, university, and cycling culture. It's a charming city with a rich history and vibrant student life."
+            },
+            {
+                "id": "blog-map-projection-review",
+                "title": "Map Projection Review",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/map-projection-review",
+                "date": "2025-01-??",
+                "excerpt": "A Short Review on the various map projections out there, all rendered with D3.js",
+                "image": "/images/globeColorful.jpg",
+                "content": "This tutorial covers abcabc abcabc "
+            },
+            {
+                "id": "hiroshima-nagasaki",
+                "title": "Hiroshima-Nagasaki",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/hiroshima-nagasaki",
+                "date": "2024-12-??",
+                "excerpt": "A spatial demonstration of the Hiroshima and Nagasaki atomic bombings, visualizing the impact zones and historical context.",
+                "image": "/images/bomb1.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "ecosystems-world",
+                "title": "Ecosystems of the World",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/ecosystems-world",
+                "date": "2024-12-??",
+                "excerpt": "Get to explore the ecosystems of the world, from deserts to rainforests, and understand their unique characteristics and biodiversity.",
+                "image": "/images/ecosystems3.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "timezones",
+                "title": "Timezones",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/timezones",
+                "date": "2024-12-??",
+                "excerpt": "Explore the timezones of the world with this interactive map. Understand how time is divided across different regions and how it affects daily life.",
+                "image": "/images/time3.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "world-cities-population",
+                "title": "World Cities Population",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/world-cities-population",
+                "date": "2024-12-??",
+                "excerpt": "Explore cities around the world and their population size. This interactive map visualizes the population distribution in major cities, helping you understand urbanization patterns.",
+                "image": "/images/population1.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "sea-level-simulator",
+                "title": "Sea Level Simulator",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/sea-level-simulator",
+                "date": "2024-12-??",
+                "excerpt": "Simulate sea level rise and its impact on coastal areas. This interactive map allows users to visualize how different levels of sea rise would affect regions around the world.",
+                "image": "/images/sea1.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "solar-terminator",
+                "title": "Solar Terminator",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/solar-terminator",
+                "date": "2024-12-??",
+                "excerpt": "The solar terminator shows the moving line dividing Earth's day and night sides as it rotates.",
+                "image": "/images/dayNnight7.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "brazilian-road-network",
+                "title": "Brazilian Road Network",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/brazilian-road-network",
+                "date": "2024-12-??",
+                "excerpt": "A spatial visualization of the brazilian road network through OpenLayer mapping.",
+                "image": "/images/roads1.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "my-favourite-restaurants",
+                "title": "My Favourite Restaurants in the World",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/my-favourite-restaurants",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) A Geo visualization to ilustrate my favourtite restaurants around the world.",
+                "image": "/images/restaurants5.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "dijkstras-br",
+                "title": "Dijkstras in Brazil",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/dijkstras-br",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) Explore the optimal path between point A and point B in Brazil using Dijkstra's algorithm. This interactive map visualizes the shortest route based on road network data.",
+                "image": "/images/roadsJungle.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "belin-wall-comparison",
+                "title": "Belin Wall Comparison",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/belin-wall-comparison",
+                "date": "2024-12-??",
+                "excerpt": "An interactive visulization to compare the Berlin Wall to other parts of the world.",
+                "image": "/images/berlinWall2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "barcelona-street-writings",
+                "title": "Barcelona Street Writtings",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/barcelona-street-writings",
+                "date": "2024-12-??",
+                "excerpt": "A tool to write words accross the streets of Barcelona, accross the so-called Barcelona manzanas.",
+                "image": "/images/barcelona2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "world-tiles",
+                "title": "World Tiles",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/world-tiles",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) Explore this interactive map, featuring customizable tiles that transform the visual style of the geographic data. Discover unique perspectives with various map designs.",
+                "image": "/images/worldTiles3.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "seven-wonders-ancient-world",
+                "title": "Seven Wonders of the Ancient World",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/seven-wonders-ancient-world",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS)",
+                "image": "/images/world10.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "new-seven-wonders-world",
+                "title": "New Seven Wonders of the World",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/new-seven-wonders-world",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/world8.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "seven-natural-wonders-world",
+                "title": "Seven Natural Wonders of the World",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/seven-natural-wonders-world",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/world3.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "seven-wonders-modern-world",
+                "title": "Seven Wonders of the Modern World",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/seven-wonders-modern-world",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS)",
+                "image": "/images/world5.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "deforestation-hotspots",
+                "title": "Deforestation Hotspots",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/deforestation-hotspots",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS)",
+                "image": "/images/deforestation1.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "underground-railroad-routes",
+                "title": "Underground Railroad Routes",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/underground-railroad-routes",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS)",
+                "image": "/images/train3.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "empires-past",
+                "title": "Empires of the Past",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/empires-past",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) How large were the empires of the past? This interactive map visualizes the extent of historical empires, allowing users to explore their boundaries and influence.",
+                "image": "/images/empire2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "active-volcanos",
+                "title": "Active Volcanos",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/active-volcanos",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS)",
+                "image": "/images/volcano2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "indigenous-lands",
+                "title": "Indigenous Lands",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/indigenous-lands",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS)",
+                "image": "/images/indigenous2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "religeous-sites",
+                "title": "Religeous Sites",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/religeous-sites",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS)",
+                "image": "/images/religion5.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "global-festivals",
+                "title": "Global Festivals",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/global-festivals",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) carnaval, oktoberfest, woodstock, etc.",
+                "image": "/images/festival5.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "particle-accelerators",
+                "title": "Particle Accelerators",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/particle-accelerators",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) Explore the locations of particle accelerators around the world, including CERN and other major research facilities. This map visualizes the global network of particle physics research.",
+                "image": "/images/particleAccelerator3.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "undersea-cables",
+                "title": "Undersea Cables",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/undersea-cables",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/underseaCables1.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "nuclear-test-sites",
+                "title": "Nuclear Test Sites",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/nuclear-test-sites",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/nuclear2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "nuclear-plants",
+                "title": "Nuclear Plants",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/nuclear-plants",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/nuclear5.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "antarctic-research-stations",
+                "title": "Antarctic Research Stations",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/antarctic-research-stations",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/antartic1.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "unesco-heritage-sites",
+                "title": "UNESCO Heritage Sites",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/unesco-heritage-sites",
+                "data": "https://www.kaggle.com/datasets/ramjasmaurya/unesco-heritage-sites2021/data",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/unesco2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "marine-traffic",
+                "title": "Marine Traffic",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/marine-traffic",
+                "data": "https://support.marinetraffic.com/en/articles/9552659-api-services",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/marineTraffic2.jpg",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "us-military-bases",
+                "title": "US Military Bases",
+                "short_title": "",
+                "full_title": "",
+                "path": "/geolayers/us-military-bases",
+                "data": "",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) ",
+                "image": "/images/military2.jpg",
+                "content": "abcabcabc"
+            }
+        ]
+    },
+    "blogs": {
+        "id": "blogs",
+        "label": "Blogs",
+        "path": "/blogs",
+        "title": "Blogs",
+        "description": "Thoughts and tutorials on development and geospatial tech.",
+        "image": "/images/cloud5.jpg",
+        "posts": [
+            {
+                "id": "notes-on-the-census-microdata",
+                "title": "Notes on the Census Microdata",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://medium.com/@guilhermeviegas/observações-sobre-os-microdados-do-censo-extração-transformação-e-carregamento-com-bash-pyspark-f895b2ee739d",
+                "date": "2024-12-??",
+                "excerpt": "With his Census background, Guilherme illustrates a streamlined method for accessing IBGE's census data via Bash and GCP.",
+                "image": "/images/peopleWrongWay.jpg",
+                "link": "https://medium.com/@guilhermeviegas/observa%C3%A7%C3%B5es-sobre-os-microdados-do-censo-extra%C3%A7%C3%A3o-transforma%C3%A7%C3%A3o-e-carregamento-com-bash-pyspark-f895b2ee739d",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "geographic-normalization",
+                "title": "Geographic Normalization",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://aquare.la/en/geographic-normalization-what-is-it-and-what-are-its-implications/",
+                "date": "2024-12-??",
+                "excerpt": "Geographic Normalization can transform complex, irregular polygons into standardized hexagonal grids, and understand the far-reaching implications of this approach for spatial analysis.",
+                "image": "/images/hexagons2.jpg",
+                "link": "https://aquare.la/normalizacao-geografica/",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "money-neutrality-in-the-covid19-era",
+                "title": "Money Neutrality in the Covid19 Era",
+                "short_title": "",
+                "full_title": "",
+                "path": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-análise-animada-através-do-r-b79cc0f3ee98",
+                "date": "2024-12-??",
+                "excerpt": "Based on economic models, the idea of money neutrality is explained in an animated way. Guilherme rightly predicts inflation in the medium term, as expansionary monetary policies were applied to mitigate the Covid effects. In the long term, 'inflation is nothing but a monetary phenomenon'.",
+                "image": "/images/dollarsBurning.jpg",
+                "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "immigration-in-lisbon",
+                "title": "Immigration in Metropolitan Lisbon",
+                "short_title": "",
+                "full_title": "Immigration in metropolitan Lisbon: A Geospatial Analysis of the 2021 Census",
+                "path": "https://medium.com/@guilhermeviegas/imigração-na-região-metropolitana-de-lisboa-uma-análise-espacial-dos-dados-do-censo-2021-de-b96fd609023",
+                "date": "2024-12-??",
+                "excerpt": "A spatial data analysis of the 2021 Portuguese Census of metropolitan Lisbon.",
+                "image": "/images/lisboa2.jpg",
+                "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98",
+                "content": "abcabcabc"
+            },
+            {
+                "id": "secrets-cloud",
+                "title": "Secrets in the Cloud",
+                "short_title": "",
+                "full_title": "Secrets in the Cloud: Self-Hosting VaultWarden on GCP with Cloud Run and Terraform",
+                "path": "https://www.guigo.dev.br/",
+                "date": "2024-12-??",
+                "excerpt": "(WORK IN PROGRESS) A tutorial on how to self-host VaultWarden, a secure password manager, on Google Cloud Platform using Cloud Run and Terraform.",
+                "image": "/images/secretsCloud.jpg",
+                "link": "https://medium.com/@guilhermeviegas/neutralidade-da-moeda-na-era-covid19-uma-an%C3%A1lise-animada-atrav%C3%A9s-do-r-b79cc0f3ee98",
+                "content": "abcabcabc"
+            }
+        ]
+    },
+    "about": {
+        "id": "about",
+        "label": "About",
+        "path": "/about",
+        "title": "Guilherme Viegas",
+        "tagline": "Data Scientist | Geospatial Analyst | AI Enthusiast",
+        "description": "I transform complex data into actionable insights through advanced analytics and machine learning. With expertise in econometrics and spatial analysis, I build solutions that help organizations make data-driven decisions. My approach combines technical rigor with clear communication to bridge the gap between data science and business strategy.",
+        "profileImage": "/images/profile.jpeg",
+        "backgroundImage": "/images/cloud1.jpg",
+        "stats": [
+            {
+                "value": "6+",
+                "label": "Years Experience"
+            },
+            {
+                "value": "50+",
+                "label": "Projects Completed"
+            },
+            {
+                "value": "10+",
+                "label": "Technologies Mastered"
+            },
+            {
+                "value": "∞",
+                "label": "Cups of Cola"
+            }
+        ],
+        "skills": [
+            {
+                "name": "Bash",
+                "icon": "🐧"
+            },
+            {
+                "name": "PowerShell",
+                "icon": "🖥️"
+            },
+            {
+                "name": "Python",
+                "icon": "🐍"
+            },
+            {
+                "name": "Jupyter",
+                "icon": "📓"
+            },
+            {
+                "name": "Pandas",
+                "icon": "🐼"
+            },
+            {
+                "name": "Scikit-learn",
+                "icon": "🧪"
+            },
+            {
+                "name": "PyTorch",
+                "icon": "🔥"
+            },
+            {
+                "name": "TensorFlow",
+                "icon": "🧠"
+            },
+            {
+                "name": "MLflow",
+                "icon": "📤"
+            },
+            {
+                "name": "R",
+                "icon": "📈"
+            },
+            {
+                "name": "SQL",
+                "icon": "🗃️"
+            },
+            {
+                "name": "GDAL/OGR",
+                "icon": "🌐"
+            },
+            {
+                "name": "QGIS",
+                "icon": "🗺️"
+            },
+            {
+                "name": "ArcGIS",
+                "icon": "🧭"
+            },
+            {
+                "name": "OpenLayers",
+                "icon": "🛰️"
+            },
+            {
+                "name": "PostGIS",
+                "icon": "🌍"
+            },
+            {
+                "name": "PostgreSQL",
+                "icon": "🐘"
+            },
+            {
+                "name": "SQLite",
+                "icon": "🗃️"
+            },
+            {
+                "name": "Cloud SQL",
+                "icon": "💾"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "🍃"
+            },
+            {
+                "name": "Docker",
+                "icon": "🐳"
+            },
+            {
+                "name": "Kubernetes",
+                "icon": "🔢"
+            },
+            {
+                "name": "Git",
+                "icon": "🌳"
+            },
+            {
+                "name": "GCP",
+                "icon": "☁️"
+            },
+            {
+                "name": "Azure",
+                "icon": "☁️"
+            },
+            {
+                "name": "AWS",
+                "icon": "☁️"
+            },
+            {
+                "name": "Terraform",
+                "icon": "🏗️"
+            },
+            {
+                "name": "Ansible",
+                "icon": "🤖"
+            },
+            {
+                "name": "BigQuery",
+                "icon": "🔍"
+            },
+            {
+                "name": "RedShift",
+                "icon": "🎯"
+            },
+            {
+                "name": "SnowFlake",
+                "icon": "❄️"
+            },
+            {
+                "name": "DataFlow",
+                "icon": "🌀"
+            },
+            {
+                "name": "DataBricks",
+                "icon": "🧱"
+            },
+            {
+                "name": "DBT",
+                "icon": "🛠️"
+            },
+            {
+                "name": "SQLMesh",
+                "icon": "🧩"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "📜"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "ʦ"
+            },
+            {
+                "name": "React",
+                "icon": "⚛️"
+            },
+            {
+                "name": "Next.js",
+                "icon": "⏭️"
+            },
+            {
+                "name": "Node.js",
+                "icon": "🟢"
+            },
+            {
+                "name": "TailWind",
+                "icon": "🌬️"
+            },
+            {
+                "name": "Looker",
+                "icon": "👀"
+            },
+            {
+                "name": "Tableau",
+                "icon": "🖼️"
+            },
+            {
+                "name": "Power BI",
+                "icon": "🖥️"
+            },
+            {
+                "name": "Flask",
+                "icon": "🍶"
+            },
+            {
+                "name": "Django",
+                "icon": "🎶"
+            },
+            {
+                "name": "FastAPI",
+                "icon": "⚡"
+            },
+            {
+                "name": "Airflow",
+                "icon": "💨"
+            },
+            {
+                "name": "Spark",
+                "icon": "✨"
+            },
+            {
+                "name": "Hadoop",
+                "icon": "🗄️"
+            },
+            {
+                "name": "Hive",
+                "icon": "🐝"
+            },
+            {
+                "name": "Kafka",
+                "icon": "⚙️"
+            },
+            {
+                "name": "Grafana",
+                "icon": "📊"
+            },
+            {
+                "name": "Prometheus",
+                "icon": "⏱️"
+            },
+            {
+                "name": "Jenkins",
+                "icon": "🤵"
+            },	
+            {
+                "name": "GitHub Actions",
+                "icon": "🚀"
+            }
+        ],
+        "sections": [
+            {
+                "title": "Professional Journey",
+                "type": "timeline",
+                "items": [
+                    {
+                        "title": "Cloud Data Engineer - CloudPilots, Germany",
+                        "date": "2024 - 2025",
+                        "desc1": "Cloud Infrastructure using GCP and Terraform;",
+                        "desc2": "IT Consultancy for Databases and Report Development;",
+                        "desc3": "FinOps, Cloud Migration, ETL, and Reporting;",
+                        "desc4": "Data Pipeline Development and Maintenance;",
+                        "tech": "Tech: GCP, Terraform, BQ, SQL, SQLX, DataForm, BigData, JS, Python;"
+                    },
+                    {
+                        "title": "Data Consultant, Inetum/Noesis, Portugal",
+                        "date": "2022 - 2024",
+                        "desc1": "Cloud Infrastructure Development and Maintaining;",
+                        "desc2": "Database Administration;",
+                        "desc3": "Network Analysis and Spatial Data Visualization;",
+                        "desc4": "Training of Interns;",
+                        "tech": "Tech: Azure, GCP, Terraform, Bash, Python, Postgres, PostGIS;"
+                    },
+                    {
+                        "title": "Census Agent of Admnistration and Informatics, IBGE, Brazil",
+                        "date": "2022",
+                        "desc1": "Support Census Research in Assigned Areas/Regions;",
+                        "desc2": "Reviewing Field Sites and Research Reports;",
+                        "desc3": "Training of Census Agents to Conduct Interviews;",
+                        "desc4": "Data Collection and Supervision;",
+                        "tech": "Tech: Excel and Proprietary Software;"
+                    },
+                    {
+                        "title": "Applied Data Scientist, 4Intelligence, Brazil",
+                        "date": "2021-2022",
+                        "desc1": "Data Cleaning and Transformation;",
+                        "desc2": "Statistical and Machine Learning Modeling;",
+                        "desc3": "Time Series Forecasting and Anomaly Detection;",
+                        "desc4": "Development of Data Pipelines;",
+                        "tech": "Tech: Python, R, Bash, Postgres, SQL, Azure, Excel;"
+                    },
+                    {
+                        "title": "Junior Data Scientist, Aquarela, Brazil",
+                        "date": "2019-2022",
+                        "desc1": "Data Cleaning and Transformations;",
+                        "desc2": "Development of Analytical Dashboards;",
+                        "desc3": "Statistical Modeling and Machine Learning;",
+                        "desc4": "Deployment of Dashboards in Production;",
+                        "tech": "Tech: R, Python, Docker, JS, CSS, GCP, AWS;"
+                    }
+                ]
+            },
+            {
+                "title": "Education",
+                "type": "timeline",
+                "items": [
+                    {
+                        "title": "MSc in GeoSpatial Technologies - University of Münster",
+                        "date": "2023 - 2025",
+                        "description": "abc."
+                    },
+                    {
+                        "title": "BSc in Economics - Federal University of Santa Catarina",
+                        "date": "2018 - 2022",
+                        "description": "abc."
+                    }
+                ]
+            },
+            {
+                "title": "Certifications",
+                "items": [
+                    "Google Professional Machine Learning Engineer Certification (GCP)",
+                    "Google Associate Cloud Engineer Certification (GCP)",
+                    "Google Associate Data Practioner Certification (GCP)",
+                    "Google Cloud Digital Leader Certification (GCP)",
+                    "Azure Associate Data Scientist Certification (Azure)",
+                    "Microsoft Certified: Designing and Implementing a Data Science Solution on Azure (DP-100)",
+                    "Microsoft Certified: Azure Data Fundamentals (DP-900)",
+                    "Microsoft Certified: Azure Fundamentals (AZ-900)",
+                    "Microsoft Certified: Azure AI Fundamentals (AI-900)",
+                    "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)",
+                    "Microsoft Certified: Power Platform Fundamentals (PL-900)"
+                ]
+            },
+            {
+                "title": "Awards",
+                "items": [
+                    "Merit-based fellowship for outstanding performance in the Masters of Science program in GeoSpatial Technologies"
+                ]
+            },
+            {
+                "title": "Methodological Approach",
+                "content": "My work follows a rigorous analytical process: 1) Problem framing with stakeholders, 2) Exploratory data analysis, 3) Model development with validation, 4) Implementation strategy, and 5) Continuous monitoring. I emphasize reproducibility through version control and documentation, ensuring insights stand up to scrutiny."
+            }
+        ],
+        "links": [
+            {
+                "title": "GitHub",
+                "url": "https://github.com/guigo",
+                "icon": "👨‍💻"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://linkedin.com/in/guilherme-viegas/",
+                "icon": "💼"
+            },
+            {
+                "title": "Email",
+                "url": "mailto:gui@example.com",
+                "icon": "✉️"
+            },
+            {
+                "title": "CV Download",
+                "url": "/cv.pdf",
+                "icon": "📄"
+            }
+        ]
+    }
+}

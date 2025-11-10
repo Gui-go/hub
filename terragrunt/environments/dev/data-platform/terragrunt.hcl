@@ -1,5 +1,5 @@
 locals {
-  parent_vars = read_terragrunt_config("../terragrunt.hcl")
+  env_vars = read_terragrunt_config("../env.hcl")
 }
 
 terraform {
@@ -7,9 +7,9 @@ terraform {
 }
 
 inputs = {
-  project_id = local.parent_vars.inputs.project_id
-  location   = local.parent_vars.inputs.location
-  region     = local.parent_vars.inputs.region
+  project_id = local.env_vars.inputs.project_id
+  location   = local.env_vars.inputs.location
+  region     = local.env_vars.inputs.region
   dataset = {
     "bronze" = {
       dataset_id   = "bronze"
@@ -33,5 +33,10 @@ inputs = {
     }
   }
 }
+
+
+
+
+
 
 

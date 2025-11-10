@@ -1,5 +1,5 @@
 locals {
-  parent_vars = read_terragrunt_config("../terragrunt.hcl")
+  env_vars = read_terragrunt_config("../env.hcl")
 }
 
 terraform {
@@ -7,8 +7,8 @@ terraform {
 }
 
 inputs = {
-  project_id = local.parent_vars.inputs.project_id
-  region     = local.parent_vars.inputs.region
+  project_id = local.env_vars.inputs.project_id
+  region     = local.env_vars.inputs.region
   sa = {
     "terraform-sa" = {
       sa_id   = "terraform-sa"
@@ -51,5 +51,10 @@ inputs = {
     }
   }
 }
+
+
+
+
+
 
 

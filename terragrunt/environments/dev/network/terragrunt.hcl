@@ -1,5 +1,5 @@
 locals {
-  parent_vars = read_terragrunt_config("../terragrunt.hcl")
+  env_vars = read_terragrunt_config("../env.hcl")
 }
 
 terraform {
@@ -7,8 +7,8 @@ terraform {
 }
 
 inputs = {
-  project_id  = local.parent_vars.inputs.project_id
-  region      = local.parent_vars.inputs.region
+  project_id  = local.env_vars.inputs.project_id
+  region      = local.env_vars.inputs.region
   subnet_cidr = "10.0.1.0/24"
   net_name    = "vpc-net"
   subnet_name = "vpc-subnet"
@@ -24,6 +24,17 @@ inputs = {
   #   # "api" = "api-service"
   # }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

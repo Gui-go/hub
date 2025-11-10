@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+
+
+
+Berliner Mauer API data:
+https://sigcfe.maps.arcgis.com/home/item.html?id=a8543baa8ffc41fe9c78d367e912bc70
+https://services2.arcgis.com/jUpNdisbWqRpMo35/ArcGIS/rest/services/Berliner_Mauer/FeatureServer/0
+https://services2.arcgis.com/jUpNdisbWqRpMo35/arcgis/rest/services/Berliner_Mauer/FeatureServer/0/query?where=1=1&outFields=*&f=json
+
+Berlin city polygon:
+https://opendatalab.de/projects/geojson-utilities/
+
+Barcelona Streets:
+https://opendata-ajuntament.barcelona.cat/data/en/dataset/mapa-graf-viari-carrers-wms
+https://datos.gob.es/en/catalogo/l01080193-grafo-viario-de-las-calles-de-la-ciudad-de-barcelona
+ogr2ogr -f "GeoJSON" -t_srs EPSG:4326  barcelona_streets.geojson BCN_GrafVial_Trams_ETRS89_SHP.shp
+
+
+
+
+
+
+
+
+
+
+
+

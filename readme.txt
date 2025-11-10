@@ -18,12 +18,12 @@ flutter run -d chrome
 flutter build web
 
 # Build:
-docker build -t guigo13/personalhub .
+docker build -t guigo13/hub .
 
 # Run:
-docker run -p 8080:80 guigo13/personalhub
+docker run -p 8080:80 guigo13/hub
 
-docker push guigo13/personalhub
+docker push guigo13/hub
 
 
 gcloud auth configure-docker
@@ -43,20 +43,20 @@ gcloud iam service-accounts create github-actions-deployer \
   --display-name "GitHub Actions Cloud Run Deployer"
 
 
-gcloud projects add-iam-policy-binding personalhub3 \
-  --member="serviceAccount:github-actions-deployer@personalhub3.iam.gserviceaccount.com" \
+gcloud projects add-iam-policy-binding hub3 \
+  --member="serviceAccount:github-actions-deployer@hub3.iam.gserviceaccount.com" \
   --role="roles/run.admin"
 
-gcloud projects add-iam-policy-binding personalhub3 \
-  --member="serviceAccount:github-actions-deployer@personalhub3.iam.gserviceaccount.com" \
+gcloud projects add-iam-policy-binding hub3 \
+  --member="serviceAccount:github-actions-deployer@hub3.iam.gserviceaccount.com" \
   --role="roles/iam.serviceAccountUser"
 
-gcloud projects add-iam-policy-binding personalhub3 \
-  --member="serviceAccount:github-actions-deployer@personalhub3.iam.gserviceaccount.com" \
+gcloud projects add-iam-policy-binding hub3 \
+  --member="serviceAccount:github-actions-deployer@hub3.iam.gserviceaccount.com" \
   --role="roles/artifactregistry.admin"
 
 gcloud iam service-accounts keys create ../github-actions-deployer-key.json \
-  --iam-account=github-actions-deployer@personalhub3.iam.gserviceaccount.com
+  --iam-account=github-actions-deployer@hub3.iam.gserviceaccount.com
 
 
 
@@ -65,15 +65,15 @@ gcloud iam service-accounts keys create ../github-actions-deployer-key.json \
 
 --
 # To get Discovery Engine access to GCS bucket: 
-gcloud storage buckets add-iam-policy-binding gs://personalhub-docs-bucket \
+gcloud storage buckets add-iam-policy-binding gs://hub-docs-bucket \
   --member=user:guilhermeviegas1993@gmail.com \
   --role=roles/storage.admin
 
-gcloud storage buckets add-iam-policy-binding gs://personalhub-docs-bucket \
+gcloud storage buckets add-iam-policy-binding gs://hub-docs-bucket \
   --member=user:guilhermeviegas1993@gmail.com \
   --role=roles/storage.objectAdmin
 
-gcloud storage buckets add-iam-policy-binding gs://personalhub-docs-bucket \
+gcloud storage buckets add-iam-policy-binding gs://hub-docs-bucket \
   --member=user:guilhermeviegas1993@gmail.com \
   --role=roles/storage.objectCreator
 
@@ -118,11 +118,11 @@ docker run -p 3000:3000 vanilla_app
 
 
 
-docker build -t guigo13/personalhub-flutter .
-docker build -t guigo13/personalhub-flutter -f flutter_app/Dockerfile .
-docker build -t guigo13/personalhub-flutter -f flutter_app/Dockerfile flutter_app
+docker build -t guigo13/hub-flutter .
+docker build -t guigo13/hub-flutter -f flutter_app/Dockerfile .
+docker build -t guigo13/hub-flutter -f flutter_app/Dockerfile flutter_app
 
-docker run -p 8080:8080 guigo13/personalhub-flutter
+docker run -p 8080:8080 guigo13/hub-flutter
 
 docker build -t guigo13/dbt -f dbt.dockerfile .
 
@@ -167,7 +167,7 @@ docker run -p 81:80 guigo13/gitlab
 When adding new subdomains, add them in terraform/main.tf and terraform/modules/compute/outputs.tf
 
 
-Error: Error creating ManagedSslCertificate: googleapi: Error 409: The resource 'projects/personalhub3/global/sslCertificates/ssl-certs' already exists, alreadyExists
+Error: Error creating ManagedSslCertificate: googleapi: Error 409: The resource 'projects/hub3/global/sslCertificates/ssl-certs' already exists, alreadyExists
 # Delete before creating new subdomains
 terraform destroy -target=module.network.google_compute_managed_ssl_certificate.ssl_certs
 
@@ -176,7 +176,7 @@ terraform destroy -target=module.network.google_compute_region_network_endpoint_
 
 
 # List APIs enabled:
-gcloud services list --enabled --project=personalhub3
+gcloud services list --enabled --project=hub3
 
 
 

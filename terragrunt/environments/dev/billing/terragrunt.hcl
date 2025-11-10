@@ -1,5 +1,5 @@
 locals {
-  parent_vars = read_terragrunt_config("../terragrunt.hcl")
+  env_vars = read_terragrunt_config("../env.hcl")
 }
 
 terraform {
@@ -7,8 +7,8 @@ terraform {
 }
 
 inputs = {
-  project_id   = local.parent_vars.inputs.project_id
-  location     = local.parent_vars.inputs.location
+  project_id   = local.env_vars.inputs.project_id
+  location     = local.env_vars.inputs.location
   dataset_id   = "billing_export"
   dataset_name = "Billing Export"
   dataset_desc = "A BQ dataset for billing export data"
