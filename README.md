@@ -37,13 +37,13 @@ Here's a general example of how to deploy an application:
 ```bash
 # Build the Docker image
 docker buildx build --platform linux/amd64 \
-  -t us-central1-docker.pkg.dev/hub14/hub-artifact-repo/<app-name> \
+us-central1-docker.pkg.dev/hub026/hub-artifact-repo/<app-name> \
   -f <app-name>.dockerfile \
   --push .
 
 # Deploy to Google Cloud Run
 gcloud run deploy <app-name>-run \
-  --image=us-central1-docker.pkg.dev/hub14/hub-artifact-repo/<app-name> \
+  --image=us-central1-docker.pkg.dev/hub026/hub-artifact-repo/<app-name> \
   --platform=managed \
   --region=us-central1 \
   --allow-unauthenticated

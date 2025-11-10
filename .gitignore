@@ -52,7 +52,7 @@ terraform.tfstate.backup
 
 .terraform.lock.hcl
 
-*/personalhub14-terraform-sa-key.json
+
 
 
 
@@ -79,10 +79,3 @@ portfolio_app/package-lock.json
 *.terragrunt-cache
 
 terragrunt-sa.json
-
-*/personalhub15sa4terragrunt.json
-
-
-
-
-

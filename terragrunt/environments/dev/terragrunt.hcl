@@ -6,7 +6,7 @@ locals {
 remote_state {
   backend = "gcs"
   config = {
-    bucket = "personalhub22gcs4state"
+    bucket = "hub26gcs4state"
     # prefix   = "terragrunt/${path_relative_to_include()}"
     prefix = "terragrunt/environments/dev"
     # prefix   = "${path_relative_to_include()}/terraform.tfstate"
@@ -20,8 +20,6 @@ remote_state {
   # disable_init_prompt = true
 }
 
-# Generate a common provider configuration for all modules.
-# This avoids repeating the provider block in every module's terragrunt.hcl.
 generate "provider" {
   path      = "provider.tf"
   if_exists = "overwrite"
