@@ -93,6 +93,11 @@ add lives to flappy bird
 26) Library tag/tool for links of my favourite articles and books;
 download blocked by password, so not to be accused of piracy
 
+https://search.google.com/search-console?resource_id=sc-domain%3Aguigo.dev.br
+
+27) Digital Nomad game
+
+
 
 
 

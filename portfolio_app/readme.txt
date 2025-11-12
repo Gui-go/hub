@@ -62,7 +62,7 @@ gcloud run deploy portfolio-run \
 
 gcloud auth configure-docker us-central1-docker.pkg.dev -q
 docker buildx build --platform linux/amd64 \
-    -t us-central1-docker.pkg.dev/hub026/artifact-repo/portfolio-app:latest \
+    -t us-central1-docker.pkg.dev/hub027/artifact-repo/portfolio-app:latest \
     -f portfolio-app.dockerfile \
     --push .
 
