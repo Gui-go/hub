@@ -4,7 +4,7 @@
 terraform {
   backend "gcs" {
     bucket = "state4hub29infra"
-    prefix = "terraform/state"
+    prefix = "terraform/state/infra/"
   }
 }
 
